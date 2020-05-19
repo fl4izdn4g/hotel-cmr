@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+
+.error-message {
+	color: #dd4b39;
+	display: block;
+	font-wieght: bold;
+}
+
+.action-column {
+	width: 100px;
+}
+
+.id-column {
+	width: 30px;	
+}
+
+.price-column {
+	width: 100px;
+}
+
+.photo-column {
+	width: 150px;
+}
+
+.bool-column {
+	width: 100px;
+}
+
+.quantity-column {
+	width: 100px;
+}
+
+.single-action-column {
+	width: 36px;
+}
+
+.element-count-column {
+	width: 100px;
+}
+
+.big-element-count-column {
+	width: 170px;
+}
+
+.upload-area {
+	min-height: 80px;
+	text-align: center;
+	font-weight: bold;
+	color: #bbb;
+	position:relative;
+	margin:0 5px 0 15px;
+}
+
+.box.box-solid > .box-header .btn-success:hover {
+    background: #008d4c;
+}
+
+.box.box-solid > .box-header .btn-primary:hover {
+	background: #367fa9;
+}
+
+.box.box-solid > .box-header .btn-danger:hover {
+	background: #d73925;
+}
+
+.kontakt-row input, .kontakt-row textarea {
+	background-color: #fff !important;
+}
+
+.color-success {
+	color: #00a65a;
+}
+
+.color-warning {
+	color: #ec971f;
+}
+
+.color-error {
+	color: #c9302c;
+}
+
+p.lead {
+	margin-bottom: 10px;
+}
+
+dd {
+	margin-bottom: 5px;
+}

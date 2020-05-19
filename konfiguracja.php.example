@@ -1,0 +1,67 @@
+<?php
+// Rename file to konfiguracja.php
+return array(
+	'database_address' => 'localhost',
+	'database_name' => 'hotel',
+	'database_login' => 'root',
+	'database_password' => '',
+		
+	'default_controller' => 'Home',
+	'upload_url' => 'static/upload/',
+	
+	'password_salt' => 'Mdl1uY9kiwf1OvN71b0C',	
+	
+	'base_url' => 'http://localhost/hotel/',
+		
+	'upload_groups' => array(
+		'GrupyPokoi' => 'grupy_pokoi',
+		'Pokoje' => 'pokoje',
+		'Wyposazenie' => 'wyposazenie',
+			
+		'SaleRestauracyjne' => 'sale_restauracyjne',
+			
+		'GrupyProduktow' => 'grupy_produktow',
+		'Produkty' => 'produkty',
+		'Potrawy' => 'potrawy',
+			
+		'Administratorzy' => 'administratorzy',
+		'Galerie' => 'galerie',
+	),
+		
+	'image_height' => array(
+		'small' => 80,
+		'medium' => 125,
+		'gallery-medium' => 250,
+	),
+	
+	'tax' => array(
+		'pokoj' => 23,
+		'restauracja' => 23,
+		'kuchnia' => 8
+	),
+	'price' => array(
+		'dostawka' => '100',
+	),
+	'hotel' => array(
+		'nazwa' => 'Hotel Testowy',
+		'ulica' => 'Testowa 1',
+		'kod_pocztowy' => '00-001',
+		'miejscowosc' => 'Testowice',
+		'NIP' => '000',
+		'REGON' => '0000000',
+		'email' => 'faktury@hotel.com'
+	),
+		
+	'mail' => array(
+		'can_send' => true,
+		'email' => '**********', // to fill
+		'password' => '********', // to fill
+		'pop3' => '*********', // to fill
+		'pop3_port' => '*********', // to fill
+		'smtp' => '*********', // to fill
+		'smtp_port' => '*********', // to fill
+		'imap' => '*********', // to fill
+		'imap_port' => '*********', // to fill
+		'ssl' => true,
+	),
+);
